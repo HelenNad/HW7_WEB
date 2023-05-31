@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "hw7-web"
+version = "0.1.0"
+description = ""
+authors = ["HelenNad <htkachenko88@gmail.com>"]
+readme = "README.md"
+packages = [{include = "hw7_web"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sqlalchemy = "^2.0"
+faker = "^18.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
